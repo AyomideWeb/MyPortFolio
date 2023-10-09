@@ -13,7 +13,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Gabriel</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Frontend Web Applications,<br /> User Interfaces, 3D Visuals and Smart Contracts <br lg:block sm:hidden /> for blockchain development.</p>
+            I develop Frontend Web Applications,<br /> User Interfaces and Smart Contracts <br /> for blockchain development.</p>
         </div>
       </div>
       <ComputersCanvas />
