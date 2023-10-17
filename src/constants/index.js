@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    gpt5,
 } from "../assets";
 
 export const navLinks = [
@@ -172,7 +173,7 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+            "I thought it was impossible to make a website as beautiful as our product, but Gabriel proved me wrong.",
         name: "Sara Lee",
         designation: "CFO",
         company: "Acme Co",
@@ -216,28 +217,30 @@ const projects = [
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/AyomideWeb/gpt5_demoproject",
+        live_link: "https://gpt5-demoproject.vercel.app/"
     },
     {
-        name: "Job IT",
+        name: "GPT5 Demo Project",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application that shows the User Interface for an AI platform. This is not a rel-world project but a demo landing page that shows my work.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "css",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "figma",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: gpt5,
+        source_code_link: "https://github.com/AyomideWeb/gpt5_demoproject",
+        live_link: "https://gpt5-demoproject.vercel.app/"
     },
     {
         name: "Trip Guide",
