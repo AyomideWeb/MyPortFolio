@@ -23,6 +23,7 @@ import {
     threejs,
     gpt5,
     defi,
+    recylox,
 } from "../assets";
 
 export const navLinks = [
@@ -246,25 +247,30 @@ const projects = [
         live_link: "https://defi-for-all-project.vercel.app/"
     },
     {
-        name: "Trip Guide",
+        name: "Recylox Web3 Project",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Recylox is a groundbreaking digital currency specifically designed to revolutionize the world of recycling. Built on the principles of blockchain technology.This is a project built by a team of developers which i also contributed to as a developer.",
         tags: [
             {
-                name: "nextjs",
+                name: "solidity",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "react",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "ThirdWeb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "bootstrap",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: recylox,
+        source_code_link: "https://github.com/AyomideWeb/reccoin-frontend",
+        live_link: 'https://recylox.netlify.app/'
     },
 ];
 

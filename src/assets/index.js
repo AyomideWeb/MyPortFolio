@@ -30,6 +30,7 @@ import tesla from "./company/tesla.png";
 import defi from "./defi.png";
 import tripguide from "./tripguide.png";
 import gpt5 from "./gpt5.png";
+import recylox from "./recylox.png";
 
 export {
   logo,
@@ -61,4 +62,5 @@ export {
   gpt5,
   link,
   defi,
+  recylox,
 };
