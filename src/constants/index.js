@@ -19,11 +19,10 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
     tripguide,
     threejs,
     gpt5,
+    defi,
 } from "../assets";
 
 export const navLinks = [
@@ -181,7 +180,7 @@ const testimonials = [
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
+            "I've never met a web developer who truly cares about their clients' success like Gabriel does.",
         name: "Chris Brown",
         designation: "COO",
         company: "DEF Corp",
@@ -189,7 +188,7 @@ const testimonials = [
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+            "After Gabriel optimized our website, our traffic increased by 50%. We can't thank them enough!",
         name: "Lisa Wang",
         designation: "CTO",
         company: "456 Enterprises",
@@ -198,28 +197,6 @@ const testimonials = [
 ];
 
 const projects = [
-    {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/AyomideWeb/gpt5_demoproject",
-        live_link: "https://gpt5-demoproject.vercel.app/"
-    },
     {
         name: "GPT5 Demo Project",
         description:
@@ -241,6 +218,32 @@ const projects = [
         image: gpt5,
         source_code_link: "https://github.com/AyomideWeb/gpt5_demoproject",
         live_link: "https://gpt5-demoproject.vercel.app/"
+    },
+    {
+        name: "DeFi For All",
+        description:
+            "Web3-based platform that allows users to be acquainted with blockchain technology and other opportunities it offers including Decentralized Finance(DeFi)",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "solidity",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "hardhat",
+                color: "blue-text-gradient",
+            }
+        ],
+        image: defi,
+        source_code_link: "https://github.com/AyomideWeb/DEFI-FOR-ALL-PROJECT",
+        live_link: "https://defi-for-all-project.vercel.app/"
     },
     {
         name: "Trip Guide",
