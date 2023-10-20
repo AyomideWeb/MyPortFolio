@@ -27,6 +27,8 @@ import grandida from "./company/grandida.jpeg";
 import upwork from "./company/upwork.png";
 import unizik from "./company/unizik.png";
 
+import blockchain from "./certificates/blockchain.jpg";
+
 import defi from "./defi.png";
 import tripguide from "./tripguide.png";
 import gpt5 from "./gpt5.png";
@@ -63,4 +65,5 @@ export {
   grandida,
   upwork,
   unizik,
+  blockchain,
 };
