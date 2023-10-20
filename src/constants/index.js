@@ -298,7 +298,7 @@ const certifications = [
             },
         ],
         image: blockchain,
-        live_link: "https://coursera.org/share/304098a8071c71a6bfb6270d72f78e26"
+        live_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/MELBL87CNBPD"
     },
     {
         name: "DeFi For All",
