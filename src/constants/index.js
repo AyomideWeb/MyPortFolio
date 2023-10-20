@@ -291,7 +291,7 @@ const certifications = [
     {
         name: "Blockchain Specialization Course",
         description:
-            "In this specialization, I grasped key concepts for building a blockchain protocol. The courses included encryption, hashing, consensus, transactions, blocks, and private-public keys. I also gained experience in designing, developing, and testing smart contracts and decentralized applications on a private Ethereum blockchain.",
+            "",
         tags: [
             {
                 name: "solidity",
@@ -312,7 +312,7 @@ const certifications = [
     {
         name: "JavaScript Specialization Course",
         description:
-            "In this Specialization, I honed foundational programming skills with JavaScript. Over four courses, I covered JavaScript basics, web content manipulation, and jQuery. Projects demonstrated jQuery's use and differences from JavaScript. I also tackled complex scripts, data handling, and user inputs.",
+            "",
         tags: [
             {
                 name: "HTML5",
@@ -333,7 +333,7 @@ const certifications = [
     {
         name: "Python Specialization Course",
         description:
-            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+            "",
         tags: [
             {
                 name: "python",
@@ -352,9 +352,9 @@ const certifications = [
         live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
     },
     {
-        name: "Python Specialization Course",
+        name: "Java Programming Specialization Course",
         description:
-            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+            "",
         tags: [
             {
                 name: "python",
@@ -373,51 +373,9 @@ const certifications = [
         live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
     },
     {
-        name: "Python Specialization Course",
+        name: "Programming in JavaScript Course",
         description:
-            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
-        tags: [
-            {
-                name: "python",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "json",
-                color: "green-text-gradient",
-            },
-            {
-                name: "APIs",
-                color: "green-text-gradient",
-            },
-        ],
-        image: leadership,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
-    },
-    {
-        name: "Python Specialization Course",
-        description:
-            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
-        tags: [
-            {
-                name: "python",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "json",
-                color: "green-text-gradient",
-            },
-            {
-                name: "APIs",
-                color: "green-text-gradient",
-            },
-        ],
-        image: htmlCert,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
-    },
-    {
-        name: "Python Specialization Course",
-        description:
-            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+            "",
         tags: [
             {
                 name: "python",
@@ -436,9 +394,9 @@ const certifications = [
         live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
     },
     {
-        name: "Python Specialization Course",
+        name: "React Basics Course",
         description:
-            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+            "",
         tags: [
             {
                 name: "python",
@@ -457,9 +415,30 @@ const certifications = [
         live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
     },
     {
-        name: "Python Specialization Course",
+        name: "HTML and CSS In Depth Course",
         description:
-            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+            "",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: htmlCert,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Version Control Course",
+        description:
+            "",
         tags: [
             {
                 name: "python",
@@ -478,9 +457,9 @@ const certifications = [
         live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
     },
     {
-        name: "Python Specialization Course",
+        name: "C and C++ For Everyone Course",
         description:
-            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+            "",
         tags: [
             {
                 name: "python",
@@ -495,7 +474,28 @@ const certifications = [
                 color: "green-text-gradient",
             },
         ],
-        image: pythonCert,
+        image: cpp,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Teamwork and Leadership Management Course",
+        description:
+            "",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: leadership,
         live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
     },
 ];
