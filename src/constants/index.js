@@ -15,15 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    tripguide,
     threejs,
     gpt5,
     defi,
     recylox,
+    xpactix,
+    grandida,
+    upwork,
+    unizik,
 } from "../assets";
 
 export const navLinks = [
@@ -117,11 +116,11 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Frontend Developer",
+        company_name: "Xpactix LLC",
+        icon: xpactix,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "March 2023 - September, 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,43 +129,47 @@ const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Solidity Developer",
+        company_name: "Grandida LLC",
+        icon: grandida,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "May 2022 - March 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Development of smart contracts using rust and solidity programming languages",
+            "Deployment of smart contracts using Blockchain technologies such as Truffle, Ganache and Hardhat.",
+            "Building of Personal DeFi and Decentralized Exchange projects.",
+            "Prove Successful working with tight deadlines and fast paced atmosphere.",
+            "Development of DeFi projects using Solidity for smart contracts development and deployment using hardhat.",
+            "Understanding of Web3.py and Web3.js libraries with their respective frameworks such as Brownie and Hardhat.",
+            "Adhered to quality and service standards to support operational goals.",
+            "Worked with coworkers to complete tasks.",
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+{
+    title: "Freelance Web Developer",
+        company_name: "Upwork",
+            icon: upwork,
+                iconBg: "#383E56",
+                    date: "Jan 2022 - April 2023 ",
+                        points: [
+                            "Collaborated with cross-functional teams to design and implement visually appealing and responsive web applications.",
+                            "Translated design mockups and wireframes into pixel-perfect, user-friendly interfaces, ensuring a seamless user experience.",
+                            "Developed mobile-first, responsive websites to cater to a wide range of devices and screen sizes, enhancing accessibility and user engagement.",
+                            "Utilized Git for version control and collaborative development, ensuring a well-organized codebase and streamlined team workflows.",
+                        ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+{
+    title: "Frontend Developer Intern",
+        company_name: "Nnamdi Azikiwe University, Sofware Unit",
+            icon: unizik,
+                iconBg: "#E6DEDD",
+                    date: "Jan 2022 - September 2022",
+                        points: [
+                            "Assisted in the maintenance and regular updates of the university's website, ensuring that information is current and accurate.",
+                            "Collaborated with the web development team to create and update web pages using HTML, CSS, and JavaScript, following university branding guidelines.",
+                            "Provided technical support to faculty, staff, and students who encountered issues with the university's web services, addressing their concerns promptly and effectively.",
+                            "Assisted in creating documentation and training materials to help university staff and faculty navigate content management systems and basic web development tasks.",
+                        ],
     },
 ];
 
@@ -189,7 +192,7 @@ const testimonials = [
     },
     {
         testimonial:
-            "After Gabriel optimized our website, our traffic increased by 50%. We can't thank them enough!",
+            "After Gabriel optimized our website, our traffic increased by 50%. We can't thank him enough!",
         name: "Lisa Wang",
         designation: "CTO",
         company: "456 Enterprises",

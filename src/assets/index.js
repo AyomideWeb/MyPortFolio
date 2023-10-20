@@ -22,10 +22,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import xpactix from "./company/xpactix.jpeg";
+import grandida from "./company/grandida.jpeg";
+import upwork from "./company/upwork.png";
+import unizik from "./company/unizik.png";
 
 import defi from "./defi.png";
 import tripguide from "./tripguide.png";
@@ -54,13 +54,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   tripguide,
   gpt5,
   link,
   defi,
   recylox,
+  xpactix,
+  grandida,
+  upwork,
+  unizik,
 };
