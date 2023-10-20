@@ -155,31 +155,31 @@ const experiences = [
             "Worked with coworkers to complete tasks.",
         ],
     },
-{
-    title: "Freelance Web Developer",
+    {
+        title: "Freelance Web Developer",
         company_name: "Upwork",
-            icon: upwork,
-                iconBg: "#383E56",
-                    date: "Jan 2022 - April 2023 ",
-                        points: [
-                            "Collaborated with cross-functional teams to design and implement visually appealing and responsive web applications.",
-                            "Translated design mockups and wireframes into pixel-perfect, user-friendly interfaces, ensuring a seamless user experience.",
-                            "Developed mobile-first, responsive websites to cater to a wide range of devices and screen sizes, enhancing accessibility and user engagement.",
-                            "Utilized Git for version control and collaborative development, ensuring a well-organized codebase and streamlined team workflows.",
-                        ],
+        icon: upwork,
+        iconBg: "#383E56",
+        date: "Jan 2022 - April 2023 ",
+        points: [
+            "Collaborated with cross-functional teams to design and implement visually appealing and responsive web applications.",
+            "Translated design mockups and wireframes into pixel-perfect, user-friendly interfaces, ensuring a seamless user experience.",
+            "Developed mobile-first, responsive websites to cater to a wide range of devices and screen sizes, enhancing accessibility and user engagement.",
+            "Utilized Git for version control and collaborative development, ensuring a well-organized codebase and streamlined team workflows.",
+        ],
     },
-{
-    title: "Frontend Developer Intern",
+    {
+        title: "Frontend Developer Intern",
         company_name: "Nnamdi Azikiwe University, Sofware Unit",
-            icon: unizik,
-                iconBg: "#E6DEDD",
-                    date: "Jan 2022 - September 2022",
-                        points: [
-                            "Assisted in the maintenance and regular updates of the university's website, ensuring that information is current and accurate.",
-                            "Collaborated with the web development team to create and update web pages using HTML, CSS, and JavaScript, following university branding guidelines.",
-                            "Provided technical support to faculty, staff, and students who encountered issues with the university's web services, addressing their concerns promptly and effectively.",
-                            "Assisted in creating documentation and training materials to help university staff and faculty navigate content management systems and basic web development tasks.",
-                        ],
+        icon: unizik,
+        iconBg: "#E6DEDD",
+        date: "Jan 2022 - September 2022",
+        points: [
+            "Assisted in the maintenance and regular updates of the university's website, ensuring that information is current and accurate.",
+            "Collaborated with the web development team to create and update web pages using HTML, CSS, and JavaScript, following university branding guidelines.",
+            "Provided technical support to faculty, staff, and students who encountered issues with the university's web services, addressing their concerns promptly and effectively.",
+            "Assisted in creating documentation and training materials to help university staff and faculty navigate content management systems and basic web development tasks.",
+        ],
     },
 ];
 
@@ -291,91 +291,82 @@ const certifications = [
     {
         name: "Programming in JavaScript Course",
         description:
-            "",
+            "In the JavaScript course, I learned how to create simple JavaScript code, manipulate objects and arrays, and write unit tests using Jest.",
         tags: [
             {
-                name: "python",
+                name: "JavaScript",
                 color: "blue-text-gradient",
             },
             {
-                name: "json",
-                color: "green-text-gradient",
-            },
-            {
-                name: "APIs",
+                name: "Jest",
                 color: "green-text-gradient",
             },
         ],
         image: javascriptMeta,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+        live_link: 'https://www.coursera.org/account/accomplishments/certificate/UG7FFTDCECJ5'
     },
     {
         name: "React Basics Course",
         description:
-            "",
+            "In this React course, I've gained the ability to use reusable components to render views with dynamic data, organize React projects for scalability, use props for efficient data sharing between components, create dynamic and interactive web pages and apps, and implement forms for user interaction, ultimately allowing me to build applications with React.",
         tags: [
             {
-                name: "python",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "json",
-                color: "green-text-gradient",
-            },
-            {
-                name: "APIs",
+                name: "props",
                 color: "green-text-gradient",
             },
         ],
         image: reactMeta,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+        live_link: 'https://www.coursera.org/account/accomplishments/certificate/29UMVV9VS7EH'
     },
     {
         name: "HTML and CSS In Depth Course",
-        description:
-            "",
+        description: "In the HTML and CSS course, I've learned to create a straightforward responsive form with HTML5 and CSS, design responsive layouts using CSS, develop user interfaces using Bootstrap, and utilize debugging tools for web development.",
         tags: [
             {
-                name: "python",
+                name: "HTML5",
                 color: "blue-text-gradient",
             },
             {
-                name: "json",
+                name: "css",
                 color: "green-text-gradient",
             },
             {
-                name: "APIs",
-                color: "green-text-gradient",
+                name: "bootstrap",
+                color: "pink-text-gradient",
             },
         ],
         image: htmlCert,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+        live_link: 'https://www.coursera.org/account/accomplishments/certificate/2PVNCGHRDXNT'
     },
     {
         name: "Version Control Course",
         description:
-            "",
+            "In the 'Version Control Course,' I've acquired the skills to implement version control systems, use the command line for navigation and configuration, create and use GitHub repositories, and effectively manage code revisions, enhancing my abilities in software development.",
         tags: [
             {
-                name: "python",
+                name: "git",
                 color: "blue-text-gradient",
             },
             {
-                name: "json",
+                name: "github",
                 color: "green-text-gradient",
             },
             {
-                name: "APIs",
-                color: "green-text-gradient",
+                name: "Command-line",
+                color: "pink-text-gradient",
             },
         ],
         image: versionMeta,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+        live_link: 'https://www.coursera.org/account/accomplishments/certificate/QK5MRN2MMBK5'
     },
     {
         name: "Blockchain Specialization Course",
         description:
-            "",
+            "In this specialization, I grasped key concepts for building a blockchain protocol. The courses included encryption, hashing, consensus, transactions, blocks, and private-public keys. I also gained experience in designing, developing, and testing smart contracts and decentralized applications on a private Ethereum blockchain.",
         tags: [
             {
                 name: "solidity",
@@ -395,8 +386,7 @@ const certifications = [
     },
     {
         name: "JavaScript Specialization Course",
-        description:
-            "",
+        description: "In this Specialization, I honed foundational programming skills with JavaScript. Over four courses, I covered JavaScript basics, web content manipulation, and jQuery. Projects demonstrated jQuery's use and differences from JavaScript. I also tackled complex scripts, data handling, and user inputs.",
         tags: [
             {
                 name: "HTML5",
@@ -416,8 +406,7 @@ const certifications = [
     },
     {
         name: "Python Specialization Course",
-        description:
-            "",
+        description: "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.Through practical exercises, I improved my debugging skills and gained the ability to work with Internet APIs and extract valuable data.",
         tags: [
             {
                 name: "python",
@@ -429,7 +418,7 @@ const certifications = [
             },
             {
                 name: "APIs",
-                color: "green-text-gradient",
+                color: "pink-text-gradient",
             },
         ],
         image: pythonCert,
@@ -437,66 +426,60 @@ const certifications = [
     },
     {
         name: "Java Programming Specialization Course",
-        description:
-            "",
+        description: "In this Specialization, I gained a strong foundation in software development. It covered key concepts, including algorithm development, data representation, and debugging, utilizing tools like HTML/CSS, Javascript, and Java.",
         tags: [
             {
-                name: "python",
+                name: "Java",
                 color: "blue-text-gradient",
             },
             {
-                name: "json",
-                color: "green-text-gradient",
+                name: "DSA",
+                color: "pink-text-gradient",
             },
             {
-                name: "APIs",
+                name: "Debugging",
                 color: "green-text-gradient",
             },
         ],
         image: javaCert,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/9BVM8HK7YN7S'
     },
     {
         name: "C and C++ For Everyone Course",
-        description:
-            "",
+        description: "In this Specialization, I learned the foundational C and C++ programming languages, gaining a deep understanding of computer programming, algorithms, and the conversion from C to C++. This knowledge equips me to effectively solve complex problems.",
         tags: [
             {
-                name: "python",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "json",
+                name: "C",
                 color: "green-text-gradient",
             },
             {
-                name: "APIs",
-                color: "green-text-gradient",
+                name: "C++",
+                color: "pink-text-gradient",
             },
         ],
         image: cpp,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/WEUP3SJQDBY4'
     },
     {
         name: "Teamwork and Leadership Management Course",
         description:
-            "",
+            "One important lesson I've learned is the value of effective communication. I've found that clear and open communication is essential in both personal and professional relationships. It not only prevents misunderstandings but also fosters trust and cooperation",
         tags: [
             {
-                name: "python",
+                name: "Leadership",
                 color: "blue-text-gradient",
             },
             {
-                name: "json",
-                color: "green-text-gradient",
+                name: "Teamwork",
+                color: "pink-text-gradient",
             },
             {
-                name: "APIs",
+                name: "Negotiation",
                 color: "green-text-gradient",
             },
         ],
         image: leadership,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+        live_link: 'https://www.coursera.org/account/accomplishments/certificate/RS8Y8L7T7UPV'
     },
 ];
 
