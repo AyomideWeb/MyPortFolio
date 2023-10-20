@@ -289,90 +289,6 @@ const projects = [
 
 const certifications = [
     {
-        name: "Blockchain Specialization Course",
-        description:
-            "",
-        tags: [
-            {
-                name: "solidity",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "smart-contract",
-                color: "green-text-gradient",
-            },
-            {
-                name: "blockchain",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: blockchain,
-        live_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/MELBL87CNBPD"
-    },
-    {
-        name: "JavaScript Specialization Course",
-        description:
-            "",
-        tags: [
-            {
-                name: "HTML5",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "JavaScript",
-                color: "green-text-gradient",
-            },
-            {
-                name: "jQuery",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: javascriptCert,
-        live_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/ABV5JTSG8J93"
-    },
-    {
-        name: "Python Specialization Course",
-        description:
-            "",
-        tags: [
-            {
-                name: "python",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "json",
-                color: "green-text-gradient",
-            },
-            {
-                name: "APIs",
-                color: "green-text-gradient",
-            },
-        ],
-        image: pythonCert,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
-    },
-    {
-        name: "Java Programming Specialization Course",
-        description:
-            "",
-        tags: [
-            {
-                name: "python",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "json",
-                color: "green-text-gradient",
-            },
-            {
-                name: "APIs",
-                color: "green-text-gradient",
-            },
-        ],
-        image: javaCert,
-        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
-    },
-    {
         name: "Programming in JavaScript Course",
         description:
             "",
@@ -454,6 +370,90 @@ const certifications = [
             },
         ],
         image: versionMeta,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Blockchain Specialization Course",
+        description:
+            "",
+        tags: [
+            {
+                name: "solidity",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "smart-contract",
+                color: "green-text-gradient",
+            },
+            {
+                name: "blockchain",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: blockchain,
+        live_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/MELBL87CNBPD"
+    },
+    {
+        name: "JavaScript Specialization Course",
+        description:
+            "",
+        tags: [
+            {
+                name: "HTML5",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "jQuery",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: javascriptCert,
+        live_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/ABV5JTSG8J93"
+    },
+    {
+        name: "Python Specialization Course",
+        description:
+            "",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: pythonCert,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Java Programming Specialization Course",
+        description:
+            "",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: javaCert,
         live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
     },
     {

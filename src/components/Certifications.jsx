@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, live_link }) => {
     return (
-        <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.5)} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+        <div variants={fadeIn("up", "spring", index * 0.5, 0.5)} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
                 <div className="relative w-full h-[230px]">
                     <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
 
@@ -34,19 +34,19 @@ const ProjectCard = ({ index, name, description, tags, image, live_link }) => {
                         </p>
                     ))}
                 </div>
-        </motion.div>
+        </div>
     )
 }
 
 const Certifications = () => {
     return (
         <>
-            <motion.div variants={textVariant()}>
+            <div variants={textVariant()}>
                 <p className={styles.sectionSubText}>Certificates I have Acquired So Far.</p>
                 <h2 className={styles.sectionHeadText}>Certifications.</h2>
-            </motion.div>
+            </div>
             <div className="w-full flex">
-                <motion.p
+                <p
                     variants={fadeIn("", "", 0.1, 1)}
                     className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
                 >
@@ -54,7 +54,7 @@ const Certifications = () => {
                      to remaining at the forefront of the dynamic field of software development. 
                      In the rapidly evolving world of technology, staying current with the latest industry standards 
                      and best practices is not just a choice; it's an imperative.
-                </motion.p>
+                </p>
             </div>
             <div className="mt-20 flex flex-wrap gap-7">
                 {certifications.map((certification, index) => (
