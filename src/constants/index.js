@@ -24,6 +24,15 @@ import {
     upwork,
     unizik,
     blockchain,
+    javascriptCert,
+    pythonCert,
+    cpp,
+    htmlCert,
+    javaCert,
+    javascriptMeta,
+    leadership,
+    reactMeta,
+    versionMeta,
 } from "../assets";
 
 export const navLinks = [
@@ -282,7 +291,7 @@ const certifications = [
     {
         name: "Blockchain Specialization Course",
         description:
-            "Web application that shows the User Interface for an AI platform. This is not a rel-world project but a demo landing page that shows my work.",
+            "In this specialization, I grasped key concepts for building a blockchain protocol. The courses included encryption, hashing, consensus, transactions, blocks, and private-public keys. I also gained experience in designing, developing, and testing smart contracts and decentralized applications on a private Ethereum blockchain.",
         tags: [
             {
                 name: "solidity",
@@ -301,56 +310,193 @@ const certifications = [
         live_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/MELBL87CNBPD"
     },
     {
-        name: "DeFi For All",
+        name: "JavaScript Specialization Course",
         description:
-            "Web3-based platform that allows users to be acquainted with blockchain technology and other opportunities it offers including Decentralized Finance(DeFi)",
+            "In this Specialization, I honed foundational programming skills with JavaScript. Over four courses, I covered JavaScript basics, web content manipulation, and jQuery. Projects demonstrated jQuery's use and differences from JavaScript. I also tackled complex scripts, data handling, and user inputs.",
         tags: [
             {
-                name: "react",
+                name: "HTML5",
                 color: "blue-text-gradient",
             },
             {
-                name: "solidity",
+                name: "JavaScript",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "jQuery",
                 color: "pink-text-gradient",
             },
-            {
-                name: "hardhat",
-                color: "blue-text-gradient",
-            }
         ],
-        image: defi,
-        source_code_link: "https://github.com/AyomideWeb/DEFI-FOR-ALL-PROJECT",
-        live_link: "https://defi-for-all-project.vercel.app/"
+        image: javascriptCert,
+        live_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/ABV5JTSG8J93"
     },
     {
-        name: "Recylox Web3 Project",
+        name: "Python Specialization Course",
         description:
-            "Recylox is a groundbreaking digital currency specifically designed to revolutionize the world of recycling. Built on the principles of blockchain technology.This is a project built by a team of developers which i also contributed to as a developer.",
+            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
         tags: [
             {
-                name: "solidity",
+                name: "python",
                 color: "blue-text-gradient",
             },
             {
-                name: "react",
+                name: "json",
                 color: "green-text-gradient",
             },
             {
-                name: "ThirdWeb",
+                name: "APIs",
                 color: "green-text-gradient",
-            },
-            {
-                name: "bootstrap",
-                color: "pink-text-gradient",
             },
         ],
-        image: recylox,
-        source_code_link: "https://github.com/AyomideWeb/reccoin-frontend",
-        live_link: 'https://recylox.netlify.app/'
+        image: pythonCert,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Python Specialization Course",
+        description:
+            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: javaCert,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Python Specialization Course",
+        description:
+            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: leadership,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Python Specialization Course",
+        description:
+            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: htmlCert,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Python Specialization Course",
+        description:
+            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: javascriptMeta,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Python Specialization Course",
+        description:
+            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: reactMeta,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Python Specialization Course",
+        description:
+            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: versionMeta,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
+    },
+    {
+        name: "Python Specialization Course",
+        description:
+            "In this specialization, I mastered Python 3, covering everything from basics like variables, conditionals, and loops to more advanced concepts such as keyword parameters, list comprehensions, and class inheritance.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json",
+                color: "green-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+        ],
+        image: pythonCert,
+        live_link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/J9QXC5Z3S74J'
     },
 ];
 

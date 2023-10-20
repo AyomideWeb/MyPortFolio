@@ -28,6 +28,15 @@ import upwork from "./company/upwork.png";
 import unizik from "./company/unizik.png";
 
 import blockchain from "./certificates/blockchain.jpg";
+import javascriptCert from "./certificates/javascriptCert.jpg";
+import pythonCert from "./certificates/pythonCert.jpg";
+import cpp from "./certificates/cpp.jpg";
+import htmlCert from "./certificates/htmlCert.jpg";
+import javaCert from "./certificates/javaCert.jpg";
+import javascriptMeta from "./certificates/javascriptMeta.jpg";
+import leadership from "./certificates/leadership.jpg";
+import reactMeta from "./certificates/reactMeta.jpg";
+import versionMeta from "./certificates/versionMeta.jpg";
 
 import defi from "./defi.png";
 import tripguide from "./tripguide.png";
@@ -66,4 +75,14 @@ export {
   upwork,
   unizik,
   blockchain,
+  javascriptCert,
+  pythonCert,
+  cpp,
+  htmlCert,
+  javaCert,
+  javascriptMeta,
+  leadership,
+  reactMeta,
+  versionMeta,
+
 };
