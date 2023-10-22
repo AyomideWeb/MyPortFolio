@@ -59,14 +59,6 @@ const services = [
         title: "Solidity Developer",
         icon: mobile,
     },
-    {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Technical Writer",
-        icon: creator,
-    },
 ];
 
 const technologies = [
