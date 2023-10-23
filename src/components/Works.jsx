@@ -48,8 +48,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
             </p>
           ))}
         </div>
-
-      </Tilt>
+      </Tilt> 
     </motion.div>
   )
 }
@@ -75,6 +74,7 @@ const Works = () => {
           adeptness in diverse technologies, and adept project management.
         </motion.p>
       </div>
+      {/*Mapping the project from constants folder as props */}
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`}
