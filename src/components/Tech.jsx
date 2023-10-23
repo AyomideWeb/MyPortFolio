@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
 
+{/*Funtion that displays the technologies I've worked on*/}
 const Tech = () => {
   return (
     <>
