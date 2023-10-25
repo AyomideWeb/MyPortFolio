@@ -35,6 +35,7 @@ import {
     versionMeta,
 } from "../assets";
 
+{/*Constants added as props*/}
 export const navLinks = [
     {
         id: "about",
