@@ -28,7 +28,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
     </div>
   </motion.div>
 )
-
+{/* Function for Testimonials*/}
 const Feedbacks = () => {
   return (
     <div className='mt-12 bg-black-100 rounded-[20px]'>
